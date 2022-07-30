@@ -1,0 +1,28 @@
+JavaScript window
+--------------------------
+1. The window is at root/top level in the JavaScript object hierarchy. It is a global/root object in JavaScript and it is the root object of the Document object model(DOM);
+2. It represents the browser window in which we are seeing the content.
+3. Javascript window gets loaded into the browser first and the properties related to that window are stored in the window object.
+4.
+	Syntax of window object: 
+		window.propertyname;
+
+5. It is an object of the browser.
+6. We can access document object properties inside the window.
+7. The window is the global element for all document, objects, functions, etc.
+8. The properties related to JavaScript window are stored in the window object.
+
+JavaScript document
+-----------------------------
+1.  A document is an object inside the window object and we use a document object for manipulation inside the document.
+2. It represents the document loaded inside the window or browser.
+3.  After the window gets loaded then the document gets loaded inside that window, and the properties related to that document is stored in the document object.
+4.
+	Syntax of document object: 
+		window.document.propertyname; (or)
+		document.propertyname;
+
+5. It is an object of window.
+6. We can not access windows objects properties inside the document.
+7. It is the root element of the document object model.
+8. The properties related to JavaScript document are stored in the document object.
